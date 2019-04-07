@@ -62,7 +62,7 @@ Serial.println(distance);
       }
     playTone(tones[i], 300);
     if(tones[i] == 1915){
-      redValue = 250;
+      redValue = 255;
       blueValue = 0;
       greenValue = 0;
       analogWrite(RED, redValue);
@@ -70,25 +70,25 @@ Serial.println(distance);
       analogWrite(BLUE, blueValue);
     }
     if(tones[i] == 1700){
-      redValue = 150;
+      redValue = 255;
       blueValue = 0;
-      greenValue = 150;
+      greenValue = 130;
       analogWrite(RED, redValue);
       analogWrite(GREEN, greenValue);
       analogWrite(BLUE, blueValue);
     }
     if(tones[i] == 1519){
-      redValue = 0;
+      redValue = 255;
       blueValue = 0;
-      greenValue = 250;
+      greenValue = 255;
       analogWrite(RED, redValue);
       analogWrite(GREEN, greenValue);
       analogWrite(BLUE, blueValue);
     }
     if(tones[i] == 1432){
       redValue = 0;
-      blueValue = 150;
-      greenValue = 150;
+      blueValue = 0;
+      greenValue = 255;
       analogWrite(RED, redValue);
       analogWrite(GREEN, greenValue);
       analogWrite(BLUE, blueValue);
@@ -96,23 +96,23 @@ Serial.println(distance);
     if(tones[i] == 1275){
       redValue = 0;
       blueValue = 250;
-      greenValue = 100;
+      greenValue = 0;
       analogWrite(RED, redValue);
       analogWrite(GREEN, greenValue);
       analogWrite(BLUE, blueValue);
     }
     if(tones[i] == 1136){
-      redValue = 40;
-      blueValue = 200;
-      greenValue = 50;
+      redValue = 80;
+      blueValue = 150;
+      greenValue = 0;
       analogWrite(RED, redValue);
       analogWrite(GREEN, greenValue);
       analogWrite(BLUE, blueValue);
     }
     if(tones[i] == 1014){
-      redValue = 100;
-      blueValue = 200;
-      greenValue = 200;
+      redValue = 255;
+      blueValue = 140;
+      greenValue = 0;
       analogWrite(RED, redValue);
       analogWrite(GREEN, greenValue);
       analogWrite(BLUE, blueValue);
